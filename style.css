@@ -51,12 +51,11 @@ header {
 }
 
 nav {
-  z-index: 20;
+  z-index: 20px;
   width: 200px;
   background: white;
   transition: 0.5s;
-  transform: translateX(-100%);
-  
+  transform: translateX(-100%); 
   background-color: pink
 }
 
@@ -104,6 +103,7 @@ li:last-child a {
 }
 .fruits p {
   font-size: 30px;
+  text-align: center;
 }
 
 .cream {
@@ -112,6 +112,7 @@ li:last-child a {
 }
 .cream p {
   font-size: 30px;
+  text-align: center;
 }
 
 .gelato {
@@ -120,6 +121,7 @@ li:last-child a {
 }
 .gelato p {
   font-size: 30px;
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
@@ -151,6 +153,7 @@ li:last-child a {
 .cream p {
   font-size: 25px;
   margin-top: 0px;
+  text-align: center;
 }
 
 .cream img {
@@ -165,6 +168,7 @@ li:last-child a {
 }
 .gelato p {
   font-size: 25px;
+  text-align: center;
 }
 
 .gelato img {
@@ -198,6 +202,7 @@ li:last-child a {
 }
 .fruits p {
   font-size: 20px;
+  text-align: center;
 }
 
 .cream {
@@ -207,6 +212,7 @@ li:last-child a {
 .cream p {
   font-size: 20px;
   margin-top: 0px;
+  text-align: center;
 }
 
 .cream img {
@@ -221,6 +227,7 @@ li:last-child a {
 }
 .gelato p {
   font-size: 20px;
+  text-align: center;
 }
 
 .gelato img {
