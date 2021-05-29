@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(sea2.jpeg);
+  background-image: url(sea2.png);
   background-size: cover;
 }
 
@@ -174,10 +174,14 @@ li:last-child a {
 }
 
 @media (max-width: 670px) {
+  body {
+    background-image: url(sea.png);
+  }
 
   header {
     height: 100px;
     background-size: cover;
+    
   }
 
   .icon {
