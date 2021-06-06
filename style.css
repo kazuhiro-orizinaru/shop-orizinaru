@@ -123,15 +123,11 @@ li:last-child a {
   text-align: center;
 }
 
-.text {
-  text-align: center;
-  margin-top: 60px;
-}
-
 .text p {
   letter-spacing: 5px;
   line-height: 1.8;
   font-size: 20px;
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
