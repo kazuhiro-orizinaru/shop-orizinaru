@@ -38,6 +38,7 @@ header {
   width: 500px;
   background-attachment: fixed;
   background-image: url(kawaii.png) ;
+  position: relative;
 }
 
 #hopen img {
@@ -131,6 +132,28 @@ li:last-child a {
   text-indent: 1em;
   color: rgba(133, 130, 130, 0.9);
   
+}
+
+/* footer */
+.footer-container {
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  background: pink;
+}
+
+.copyright {
+  float: left;
+  margin: 0;
+  font-size: 0.8em;
+  color: #fff;
+}
+
+footer address {
+  float: right;
+  font-style: normal;
+  font-size: 0.9em;
+  color: #fff;
 }
 
 @media (max-width: 1000px) {
